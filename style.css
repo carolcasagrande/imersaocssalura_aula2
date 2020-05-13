@@ -1,0 +1,153 @@
+
+/* reset do css - sempre na primeira linha */
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+body{ 
+    
+    background-size: 90vw 90vh; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    height: 100vh;
+}
+
+/* se a tela tiver pelo menos 400px vai carregar esses estilos  */
+/* isso é para tornar o site responsivo */
+@media(min-width: 400px){
+    body{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 600px){
+    body{
+        font-size: 18px;
+    }
+}
+
+header{
+    background-color: BLANCHEDALMOND;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+header .intro{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: LIGHTCORAL; 
+    color: white;
+    padding: 2px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    display: block;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    color: LIGHTCORAL;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-portfolio {
+    width: 140px;
+    height: 40px;    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 10px;
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+
+figure {
+    margin: 10px;
+}
+
+figcaption {
+    font-size: 16px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 20px;
+    color: LIGHTCORAL;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.redesocial h2{
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;  
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: LIGHTCORAL;
+}
+
